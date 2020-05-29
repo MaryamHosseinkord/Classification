@@ -58,4 +58,8 @@ Sens = TP / (TP + FN)
 Spec = TN / (TN + FP)
 classification_error = np.sum(np.absolute(subtract_arr)) / test_sample_size
 
-print('end')
+print('MCC  = ' + str(MCC) + ', \n' +
+       'F1   = ' + str(F1)  + ', \n' +
+      'ACC  = ' + str(ACC) + ', \n' +
+     'Sens = ' + str(Sens) + ', \n' +
+     'Spec = ' + str(Spec) + ', ' )
